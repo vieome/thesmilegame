@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Magical Links</title>
+  <style>
+    /* Add your custom CSS styles here */
+    body {
+      background-color: #333;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 50px;
+    }
+
+    .computer {
+      background-color: #444;
+      width: 500px;
+      margin: 0 auto;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 30px;
+      animation: glow-zoom 2s linear infinite;
+    }
+
+    @keyframes glow-zoom {
+      0% {
+        transform: scale(1);
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+      }
+      50% {
+        transform: scale(1.1);
+        text-shadow: 0 0 20px rgba(255, 255, 255, 1);
+      }
+      100% {
+        transform: scale(1);
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+      }
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s, box-shadow 0.3s;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .button:hover {
+      background-color: #45a049;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="computer">
+    <h1>Magical Links</h1>
+    <ul>
+      <li><a class="button" href="https://www.nvidia.com/en-us/studio/canvas/">NVIDIA Canvas</a></li>
+      <li><a class="button" href="https://www.nvidia.com/en-us/geforce/broadcasting/broadcast/">NVIDIA Broadcast</a></li>
+      <li><a class="button" href="https://www.nvidia.com/en-us/omniverse/">NVIDIA Omniverse</a></li>
+      <li><a class="button" href="https://www.versy.ai/">Versy</a></li>
+      <li><a class="button" href="https://imagen.research.google/">Imagen</a></li>
+      <li><a class="button" href="https://www.kaiber.ai/">Kaiber</a></li>
+      <li><a class="button" href="https://convert.leiapix.com/">Leia Pix</a></li>
+      <li><a class="button" href="https://research.runwayml.com/gen2">RunwayML Gen 2</a></li>
+      <li><a class="button" href="https://www.caktus.ai/caktus_student">Caktus</a></li>
+      <li><a class="button" href="https://chrome.google.com/webstore/detail/wisdolia/cgibckidfdcaabcfilcmeofmdehbbpod">Wisdolia</a></li>
+      <li><a class="button" href="https://www.rewind.ai/">Rewind</a></li>
+      <li><a class="button" href="https://pimeyes.com/en">Pimeyes</a></li>
+      <li><a class="button" href="https://www.myheritage.com/deep-nostalgia">Deep Nostalgia</a></li>
+      <li><a class="button" href="https://www.d-id.com/">D-ID</a></li>
+      <li><a class="button" href="https://runwayml.com/">RunwayML</a></li>
+      <li><a class="button" href="https://lumalabs.ai/">Luma Labs</a></li>
+      <li><a class="button" href="https://www.notion.so/product/ai">Notion</a></li>
+      <li><a class="button" href="https://wistlabs.com/">Wist Labs</a></li>
+      <li><a class="button" href="https://www.autodraw.com/">AutoDraw</a></li>
+      <li><a class="button" href="https://www.reimaginehome.ai/">Reimagine Home</a></li>
+      <li><a class="button" href="https://donotpay.com/">Do Not Pay</a></li>
+      <li><a class="button" href="https://soundraw.io/">Soundraw</a></li>
+      <li><a class="button" href="https://mubert.com/render/pricing?via=obscurious">Mubert</a></li>
+      <li><a class="button" href="https://beta.elevenlabs.io/">Eleven Labs</a></li>
+      <li><a class="button" href="https://www.midjourney.com/home/">Midjourney</a></li>
+      <li><a class="button" href="https://mixo.io/?via=obscurious">Mixo</a></li>
+      <li><a class="button" href="https://jasper.ai?utm_source=partner&fpr=obscurious">Jasper</a></li>
+      <li><a class="button" href="https://looka.com/">Looka</a></li>
+      <li><a class="button" href="https://poly.ai/">Poly</a></li>
+      <li><a class="button" href="https://www.synthesia.io/">Synthesia</a></li>
+      <li><a class="button" href="https://beta.tome.app/">Tome</a></li>
+      <li><a class="button" href="https://www.futuretools.io/">Future Tools</a></li>
+    </ul>
+  </div>
+</body>
+</html>
